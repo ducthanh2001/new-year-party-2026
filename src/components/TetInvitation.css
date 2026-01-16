@@ -1,6 +1,5 @@
 /* Custom Tailwind CSS utilities */
-@layer utilities {
-  .gold-gradient-text {
+.gold-gradient-text {
     background: linear-gradient(to right, #BF953F, #FCF6BA, #B38728, #FBF5B7, #AA771C);
     background-size: 200% auto;
     -webkit-background-clip: text;
@@ -193,7 +192,6 @@
       radial-gradient(circle at 15% 50%, rgba(255, 223, 0, 0.15) 1.5px, transparent 1.5px),
       radial-gradient(circle at 85% 50%, rgba(255, 215, 0, 0.18) 2px, transparent 2px);
   }
-}
 
 /* Custom Horse Cursor for Year of the Horse 2026 */
 /* Hide default cursor - JavaScript component will show horse */
